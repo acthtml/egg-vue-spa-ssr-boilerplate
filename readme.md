@@ -69,10 +69,8 @@ eggjs的vue单页面应用服务端渲染解决方案。
 1. 使用[eggjs](https://eggjs.org/zh-cn/)作为服务端框架。
 2. 使用[egg-easyvue](https://github.com/acthtml/egg-easyvue)进行vue的服务端渲染和热
   更新。其内部由下面的插件实现：
-
   - [egg-view-vue](https://github.com/eggjs/egg-view-vue)进行vue的服务端渲染。
   - [egg-webpack](https://github.com/hubcarl/egg-webpack)进行HMR。
-
 3. 使用[egg-easywebpack](https://github.com/acthtml/egg-easywebpack)进行vue项目的
   webpack配置、编译构建。
 
