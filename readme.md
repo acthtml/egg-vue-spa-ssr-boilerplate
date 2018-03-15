@@ -22,6 +22,8 @@ eggjs的vue单页面应用服务端渲染解决方案。
 
   # 部署发布
   npm run start
+
+  # http://localhost:7001/app
 ```
 
 ## 项目文件架构
