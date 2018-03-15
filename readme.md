@@ -2,6 +2,8 @@
 
 eggjs的vue单页面应用服务端渲染解决方案。
 
+方案参考：[egg-vue-webpack-boilerplate](https://github.com/hubcarl/egg-vue-webpack-boilerplate)
+
 ## 快速开始
 
 ```bash
@@ -60,6 +62,12 @@ eggjs的vue单页面应用服务端渲染解决方案。
 - /config
 - /public/static 静态资源
 ```
+
+文档索引：
+
+- [api(service层)](./app/web/api/index.js)
+- [router](./app/web/router/index.js)
+- [store](./app/web/store/index.js)
 
 ## 服务端架构
 

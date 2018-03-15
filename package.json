@@ -1,0 +1,73 @@
+{
+  "name": "front-resort-hotel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "easywebpack-build",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && egg-bin test",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "start-bg": "npm run online && eggctl start --daemon",
+    "start": "npm run online && eggctl start",
+    "stop": "npm run offline && eggctl stop",
+    "offline": "heartcheck-offline",
+    "online": "heartcheck-online"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "egg": "^1.11.0",
+    "egg-easyvue": "^0.0.3",
+    "egg-easywebpack": "^0.0.3",
+    "egg-heartcheck": "^0.0.1",
+    "egg-scripts": "^2.5.0",
+    "egg-validate": "^1.0.0",
+    "egg-view-vue": "^1.0.0",
+    "fs-extra": "^5.0.0",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.8",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.5.8",
+    "vuex": "^2.4.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "egg-bin": "^3.4.0",
+    "egg-ci": "^1.7.0",
+    "egg-webpack": "^3.0.2",
+    "eslint": "^4.12.0",
+    "eslint-config-egg": "^4.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "",
+  "license": "MIT"
+}

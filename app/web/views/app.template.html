@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--DNS预解析-->
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <meta charset="UTF-8" />
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes" />
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true" />
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application" />
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="applicable-device" content="mobile">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <!-- <script src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.0.0/vconsole.min.js"></script>
+  <script>var vConsole = new VConsole()</script> -->
+  <style>/* 禁掉文字选中效果 */html,body{-webkit-user-select: none;user-select: none;-webkit-font-smoothing: antialiased;}</style>
+  <title>hello</title>
+  <script>
+    window.__SITE_ROOT__ = '{{siteRoot}}';
+    window.onerror = function(){
+      console.log(e)
+    }
+  </script>
+</head>
+<body>
+  <!--vue-ssr-outlet-->
+</body>
+</html>
